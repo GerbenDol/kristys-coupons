@@ -59,22 +59,37 @@ body {
   background-position: center;
 }
 
-  .intro h1 {
+  .intro__content {
     position: fixed;
     z-index: 0;
     top: 0;
     left: 0;
     right: 0;
-    padding: 30px;
-    padding-bottom: 100px;
+    bottom: 0;
+    padding: 15px;
 
     color: #ffffff;
-    font-family: 'Fredoka One', cursive;
-    text-align: center;
-    text-shadow: 0 4px 10px rgba(0, 0, 0, .1);
 
     background: -webkit-linear-gradient(to bottom, rgba(0, 80, 110, 0.5), transparent);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, rgba(0, 80, 110, 0.5), transparent); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to top, rgba(0, 140, 193, 0.85), rgba(0, 140, 193, 0.5)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+  .intro h1 {
+    margin-bottom: 20px;
+
+    font-family: 'Fredoka One', cursive;
+    font-size: 32px; font-size: 3.2rem;
+    text-align: center;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, .15);
+  }
+
+  .intro p {
+    margin-bottom: 10px;
+
+    font-size: 17px; font-size: 1.7rem;
+    font-weight: 700;
+    line-height: 1.2;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, .25);
   }
 
 
