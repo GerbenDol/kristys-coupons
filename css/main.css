@@ -135,6 +135,11 @@ body {
   border-radius: 12px;
 }
 
+.card--done {
+  filter: blur(2px) grayscale(100%);
+  transform: scale(.9);
+}
+
 .card + .card {
   margin-top: 15px;
 }
@@ -155,6 +160,10 @@ body {
   position: relative;
   margin-top: -20px;
 }
+
+  .card--done .card__content * {
+    text-decoration: line-through;
+  }
 
   .card__content *:last-child {
     margin-bottom: 0;
